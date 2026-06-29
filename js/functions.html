@@ -13,11 +13,27 @@
       }
       greetName("Arshad");
 
-      function add(a, b) {
-        return (result = a + b);
+      //Normal Function Decalartion
+
+      function hello() {
+        console.log("Hello");
       }
-      let result = 5 + 5;
-      console.log(result);
+      hello();
+
+      //function before its declaration
+
+      bye();
+
+      function bye() {
+        console.log("Bye");
+      }
+
+      //Arrow Function
+
+      let add = (a, b) => {
+        return a + b;
+      };
+      console.log(add(5, 5));
     </script>
   </body>
 </html>

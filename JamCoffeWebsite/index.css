@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+}
+#header{
+  background-color: rgb(164, 121, 71);
+  text-align: center;
+  font-size: 70px;
+  font-family: sans-serif;
+  padding: 30px;
+  
+}
+
+#links-sidebar, a{
+  background-color: rgb(130, 115, 99);
+  text-decoration: none;
+  display: block;
+  width: 300px;
+  text-align: center;
+  color: rgb(54, 41, 23);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#links-sidebar {
+  padding: 20px;
+  height: 400px;
+  float: left;
+}
+
+main{
+  background-color: blanchedalmond;
+  
+  
+  
+   
+  
+}
+
+#main-heading {
+
+  
+
+}
+
+#main-div {
+  padding-left: 20px;
+}
+
+
+
+
+  

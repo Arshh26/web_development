@@ -34,6 +34,38 @@
         return a + b;
       };
       console.log(add(5, 5));
+
+      // IIFE (Immediate invoked function expression)
+
+      (function multiply(a, b) {
+        console.log(a * b);
+      })(5, 5);
+
+      // Formal Parameters and Actual Parameters
+
+      function divide(a, b) {
+        // formal parameters: which is declared at function declaration
+        console.log(a / b);
+      }
+      divide(5, 2); // actual Parameters (Aarguments): which we pass while fuction calling
+
+      //function overloading
+      // let add = (a, b) => {
+      //   return a + b;
+      // };
+      // console.log(add(5, 5));
+
+      // function add(x, y, z) {
+      //   return a + b + c;
+      // }
+      // console.log(add(5, 5, 5));
+
+      // Argument Object
+
+      function colors() {
+        console.log(arguments[0]);
+      }
+      colors("Blue", "Red", "Pink");
     </script>
   </body>
 </html>

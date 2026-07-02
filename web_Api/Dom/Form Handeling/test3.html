@@ -6,11 +6,21 @@
   <body>
     <h1 id="heading">Hii</h1>
 
-    <button onclick="welcomeGreet()">click me</button>
+    <div id="firstGreet">
+      <button onclick="welcomeGreet()">click me</button>
+    </div>
+
+    <div id="secondGreet">
+      <button onclick="greetWithName"></button>
+    </div>
 
     <script>
       function welcomeGreet() {
         document.getElementById("heading").innerHTML = "Welcome";
+      }
+
+      function greetWithNAme() {
+        document.getElementById("secondGreet").innerHTML = "How Are You Arshad";
       }
     </script>
   </body>

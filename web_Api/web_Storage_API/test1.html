@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Web Storage Demo</title>
+  </head>
+  <body>
+    <button onclick="saveData()">Save Data</button>
+    <button onclick="getData()">Get Data</button>
+
+    <script>
+      function saveData() {
+        localStorage.setItem("name", "Arshad");
+        console.log("Data Saved");
+      }
+
+      function getData() {
+        let name = localStorage.getItem("name");
+        console.log(name);
+      }
+    </script>
+  </body>
+</html>

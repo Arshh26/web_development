@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Storage methods</title>
+  </head>
+  <body>
+    <button onclick="saveData()">Save Data</button>
+    <button onclick="getData()">Get Data</button>
+    <button onclick="erase()">Clear</button>
+    <script>
+      function saveData() {
+        localStorage.setItem("name", "Arshad");
+        localStorage.setItem("name", "Shameem");
+        console.log("Data is saved");
+      }
+
+      function getData() {
+        let name = localStorage.getItem("name");
+        console.log(name);
+      }
+
+      function erase() {
+        localStorage.clear();
+      }
+    </script>
+  </body>
+</html>

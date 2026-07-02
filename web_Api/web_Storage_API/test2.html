@@ -9,18 +9,17 @@
     <button onclick="erase()">Clear</button>
     <script>
       function saveData() {
-        localStorage.setItem("name", "Arshad");
-        localStorage.setItem("name", "Shameem");
+        localStorage.setItem("name", "Arshad"); // saves the data in local Storage
         console.log("Data is saved");
       }
 
       function getData() {
-        let name = localStorage.getItem("name");
+        let name = localStorage.getItem("name"); //retrives data
         console.log(name);
       }
 
       function erase() {
-        localStorage.clear();
+        localStorage.clear(); //removes all saved data from local Storage
       }
     </script>
   </body>
